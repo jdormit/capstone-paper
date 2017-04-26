@@ -1,3 +1,4 @@
+"The biggest political issue in the world today is resisting the tendency to give business power over the public and governments" - Richard Stallman
 * Thoughts on the paper
 - I'll need to connect Lyotard's understanding of "knowledge" with Stallman's understanding of "code"
 This connection is the key to the whole paper - Lyotard argues that knowledge has become commoditized and exterior to the individual, while Stallman says that code is packaged up and distributed and sold as a "mysterious bunch of numbers", which cannot be understood. Basically, the packaging of code is like the packaging and exteriorization of knowledge.
