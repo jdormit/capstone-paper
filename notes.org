@@ -1,3 +1,30 @@
 * Thoughts on the paper
 - I'll need to connect Lyotard's understanding of "knowledge" with Stallman's understanding of "code"
 This connection is the key to the whole paper - Lyotard argues that knowledge has become commoditized and exterior to the individual, while Stallman says that code is packaged up and distributed and sold as a "mysterious bunch of numbers", which cannot be understood. Basically, the packaging of code is like the packaging and exteriorization of knowledge.
+* Outline
+** Introduction
+   - Make claim: Stallman's ideas offer a solution to Lyotard's problem
+   - Explain paper structure
+** Lyotard's Problem
+   - The digital age has caused a change in the status of knowledge
+   - Knowledge as a commodity / exteriorization of knowledge
+   - Power imbalance this causes / implications of this change
+** Stallman's Problem
+   - Code as a new power vector
+   - Software should not have owners
+   - Copyright / who gets to modify / copy code?
+** Why Stallman's Problem is Lyotard's Problem
+   - Not only is code a type of knowledge, but code plays the same role in Stallman's world as knowledge does in Lyotard's
+     - Code = Knowledge => Power
+   - The commoditization of knowledge is equivalent to ownership of code in terms of the power dynamics both create
+   - *Stallman's problem with copyright == Lyotard's problem with the transferral of knowledge*
+** Stallman's Solution
+   - Free software (software without owners) is better for society as a whole
+** Why Stallman's Solution Solves Lyotard's Problem 
+   - Generalize the concept of free software to "free knowledge" -- i.e., knowledge without owners
+   - Free knowledge cannot have exchange value - therefore, it must only have use-value
+** Conclusion
+   - Despite Stallman's best efforts, most software today - and much knowledge in general - continues to be proprietary
+     - This both stems from and preserves a certain status quo and power dynamic
+   - Explore the implications of a "free knowledge" system - how would it change education, research, business?
+   - What steps could be taken to achieve such a system? What new issues would this system raise?
