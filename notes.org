@@ -6,7 +6,7 @@ This connection is the key to the whole paper - Lyotard argues that knowledge ha
 ** Introduction
    - Make claim: Stallman's ideas offer a solution to Lyotard's problem
    - Explain paper structure
-** Lyotard's Problem
+** Lyotard's Prediction
    - The digital age has caused a change in the status of knowledge
    - Knowledge as a commodity / exteriorization of knowledge
    - Power imbalance this causes / implications of this change
@@ -14,7 +14,8 @@ This connection is the key to the whole paper - Lyotard argues that knowledge ha
    - Code as a new power vector
    - Software should not have owners
    - Copyright / who gets to modify / copy code?
-** Why Stallman's Problem is Lyotard's Problem
+   - Enforcing copyright in the age of computers requires invasive, personal surveillance
+** Why Stallman's Problem is the Realization of Lyotard's Prediction
    - Not only is code a type of knowledge, but code plays the same role in Stallman's world as knowledge does in Lyotard's
      - Code = Knowledge => Power
    - The commoditization of knowledge is equivalent to ownership of code in terms of the power dynamics both create
@@ -28,4 +29,7 @@ This connection is the key to the whole paper - Lyotard argues that knowledge ha
    - Despite Stallman's best efforts, most software today - and much knowledge in general - continues to be proprietary
      - This both stems from and preserves a certain status quo and power dynamic
    - Explore the implications of a "free knowledge" system - how would it change education, research, business?
+   - What else could be copied and modified? Agriculture (plants reproduce), chemical formulas, 3D printing blueprints? Those are all of the same type as "knowledge", and the ownership argument applied equally
+     - textbooks too
    - What steps could be taken to achieve such a system? What new issues would this system raise?
+     - "What's important in your kind of structure is somebody that creates an infrastructure to which everybody else can contribute" -- the git model, applied generally
