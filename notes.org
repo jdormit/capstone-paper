@@ -19,10 +19,12 @@ This connection is the key to the whole paper - Lyotard argues that knowledge ha
    - Not only is code a type of knowledge, but code plays the same role in Stallman's world as knowledge does in Lyotard's
      - Code = Knowledge => Power
    - The commoditization of knowledge is equivalent to ownership of code in terms of the power dynamics both create
+   - Stallman's problems with globalization closely mirror Lyotard's concerns about the increasing income gap between first-world nations with knowledge economies and developing countries without.
    - *Stallman's problem with copyright == Lyotard's problem with the transferral of knowledge*
 ** Stallman's Solution
    - Free software (software without owners) is better for society as a whole
 ** Why Stallman's Solution Solves Lyotard's Problem 
+   - *Knowledge is once again a discourse, instead of an object -- anything that can be copied and modified becomes part of a conversation. Knowledge without an owner cannot be a commodity*
    - Generalize the concept of free software to "free knowledge" -- i.e., knowledge without owners
    - Free knowledge cannot have exchange value - therefore, it must only have use-value
 ** Conclusion
