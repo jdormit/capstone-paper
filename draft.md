@@ -1,4 +1,4 @@
-# Knowledge Exchange in the Digital Era
+# Open-Source Knowledge: Information Exchange and Copyright in the Digital Era
 by Jeremy Dormitzer
 
 ## Introduction
