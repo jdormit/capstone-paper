@@ -1,0 +1,540 @@
+\documentclass[titlepage]{article}
+
+\title{Open-Source Knowledge: Information Exchange and Copyright in the Digital Era}
+\author{Jeremy Dormitzer}
+\date{April 28, 2017}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}\label{introduction}
+
+Digital computing has fundamentally changed the way that our society
+creates, digests, and exchanges knowledge. Although these changes
+increase access to information, enable global discourse, and connect
+minds on opposite sides of the world, they also have troubling power and
+privacy implications. These implications are not widely discussed in
+popular literature. However, some scholars and activists have long been
+aware of the dangers of knowledge exchange in the digital age. In his
+1979 work ``The Postmodern Condition: A Report on Knowledge''
+(specifically chapter one: ``The Field: Knowledge in Computerized
+Societies''), the French philosopher Jean-François Lyotard predicted a
+shift in the status of knowledge. He believed that the advent of
+computers would cause knowledge to become commoditized, a unit of
+exchange rather than something with inherent value. Furthermore, he
+detailed the problematic political and economic consequences of this
+shift. As we will see, many of his predictions have already come to
+pass.
+
+More recently, software developer and privacy activist Richard Stallman
+has articulated many similar concerns. Although Stallman primarily talks
+and writes about software, the concerns of his philosophy closely
+parallel those of Lyotard's book. Stallman believes that the idea that
+software can have an owner leads to invasive privacy breaches and a
+growing power imbalance in which business interests trump those of the
+greater good of society. Stallman advocates for a simple but powerful
+solution to this problem: software should not have owners. He offers a
+compelling case for ``free software'' (Stallman explains this concept
+with the phrase, ``free as in freedom, not free as in beer''), and in
+his many essays and talks he demonstrates why free software solves the
+privacy and power concerns he sees in the modern world.
+
+In this paper, I endeavor to show how Stallman's ``free software''
+philosophy can be used to address Lyotard's concerns about knowledge in
+the digital era. I begin with an analysis of Lyotard's concerns for the
+changing state of knowledge, tracing his reasoning from its foundations
+to its consequences. Next, I perform a similar analysis of Stallman's
+problem, and explain how free software solves it. I show that Stallman's
+conception of software plays the same role in his work as does knowledge
+in Lyotard's. This sets the stage for the body of the paper, in which I
+extend Stallman's reasoning about software to the field of knowledge in
+general. I show that, when generalized, Stallman's ``free software''
+philosophy offers hope that Lyotard's concerns could be mitigated. I
+conclude with an exploration of the implications of ``free knowledge''.
+
+\section{Lyotard's Prediction}\label{lyotards-prediction}
+
+In order to understand Lyotard's predictions about the changing status
+of knowledge, we must first investigate his conception of knowledge. He
+begins by narrowing his topic of discussion to scientific knowledge
+only; this allows him to get specific about how and why knowledge is
+changing. Having settled on a topic, Lyotard gives a preliminary
+definition of knowledge: ``Scientific knowledge is a kind of discourse''
+(Lyotard 299). For Lyotard, then, knowledge is not simply a unit,
+something that one has or does not have; instead, knowledge is a
+conversation, a shifting shared entity that changes over time as point
+leads to counterpoint. Lyotard contends that - at the time he was
+writing - ``for the last forty years the `leading' sciences and
+technologies have had to do with language'' (299). Language, in this
+context, is taken very generally: Lyotard cites not only sciences of
+linguistics, communication, and translations, but also algebra, data,
+and computer programming. Language sciences, in other words, are those
+that deal with manipulating symbols of meaning. This shift towards
+language sciences is the first sign of the change in the status of
+knowledge, and lead to the change's symptoms: first, a tendency in other
+fields of research to draw on language sciences; second, and crucially,
+an increased use of ``information processing machines'' (300) to
+circulate knowledge on a broader scale than was previously possible.
+Lyotard supposes that this latter change will have ``as much of an
+effect on the circulation of learning as did advancements in human
+circulation (transportation systems), and later, in the circulation of
+sounds and visual images (the media)'' (300). In this, as we will see,
+Lyotard has proven to be prescient.
+
+Having understood the type of knowledge that Lyotard writes about, as
+well as a broad overview of the change in the status of this knowledge
+that will come about, we can investigate the specific concerns that
+Lyotard raises about this transition. He writes, ``We may thus expect a
+thorough exteriorisation of knowledge of knowledge with respect to the
+`knower'\,'' (300). What does this mean? Lyotard draws an analogy to
+industry: ``The relationships of the suppliers and users of knowledge to
+the knowledge they supply and use is now tending {[}\ldots{}{]} to
+assume the form already taken by the relationship of commodity producers
+and consumers to the commodities they produce and consume - that is, the
+form of value'' (300). In the face of new language sciences, knowledge
+ceases to be a conversation. Instead, it becomes a commodity. Why does
+this come about? In short, because of computers. Computers understand
+only data, so all knowledge that passes through a computer must be in
+the form of data. Lyotard predicts that ``anything in the constituted
+body of knowledge that is not translatable {[}to data{]} will be
+abandoned and that the direction of new research will be dictated by the
+possibility of its eventual results being translatable into computer
+language'' (300). This necessity means that knowledge must become
+discrete instead of continuous. One can speak of this piece of knowledge
+or that piece of knowledge, and each piece has physical limits defined
+by its file size or data type. Knowledge becomes an object - one that,
+like all objects, can be owned, bought, and sold.
+
+Lyotard explains that the commoditization of knowledge will have broad
+societal, political, and economic consequences. First, as a commodity,
+knowledge is now a thing that can be produced and exported by a
+nation-state; indeed, Lyotard writes that ``knowledge has become the
+principal force of production over the last few decades; {[}\ldots{}{]}
+In the postindustrial and postmodern age, science will maintain and no
+doubt strengthen its preeminence in the arsenal of productive capacities
+of the nation-states'' (300). This shift has a noticeable effect on a
+nation's workforce. It creates an increasingly important and lucrative
+``white-collar'' job market. Knowledge workers make more money than
+laborers, and this in turn bolsters the nation's economy, creating a
+positive feedback loop in which a better economy means more tech
+companies, and more tech companies means more knowledge workers, which
+leads to an even better economy. However, in order to kick off this
+process there need to be knowledge workers and tech companies already
+working in that nation; this means that developing nations without such
+resources get left further and further behind.
+
+Second, Lyotard points out that commoditized knowledge becomes a scarce
+resource over which nations and businesses must compete. He writes,
+``Knowledge in the form of an informational commodity indispensable to
+productive power is already, and will continue to be, a major
+{[}\ldots{}{]} stake in the worldwide competition for power'' (301). In
+other words, knowledge resources both enable and are themselves a force
+of production, and therefore a source of power. Nation-states will need
+to develop new industrial, economic, and military policies to succeed in
+this new world.
+
+Third, Lyotard predicts that knowledge's new status will upset the power
+balance between the public sector and the private sector. Traditionally,
+the state controlled the ``production and distribution of learning''
+(301). When talking about learning, Lyotard means more than simply going
+to a university or reading a book; he means control over the
+transmission of knowledge, from the individual level all the way up to
+determining the \emph{ethos} of a generation. Before the commoditization
+of knowledge, the state enjoyed regulatory power over the majority of
+knowledge discourse. However, as knowledge becomes a product, control
+over the contents of that product moves to the product's owner -
+usually, a private business entity. In particular, Lyotard is concerned
+about the rise of multi-national corporations - businesses so large and
+so distributed they do not fall under the jurisdiction of any one
+nation-state. He gives a pertinent example:
+
+\begin{quote}
+Suppose, for example, that a firm such as IBM is authorised to occupy a
+belt in the earth's orbital field and launch communications satellites
+or satellites housing data banks. Who will have access to them? Who will
+determine which channels or data are forbidden? The State? Or will the
+State simply be one user among others? New legal issues will be raised,
+and with them the question: `who will know?' (301)
+\end{quote}
+
+Lyotard demonstrates the full frightening implication of knowledge's new
+status: the entity that controls the channels of knowledge controls the
+knowledge itself. That entity therefore has power over everyone who
+wants or needs that knowledge. The questions that Lyotard asks about the
+communications satellites concern every vehicle of knowledge: questions
+of access control, censorship, privacy. Although Lyotard wrote in 1979,
+these questions have become increasingly relevant. Many of Lyotard's
+predictions about the status of knowledge and its consequences have come
+to pass. Richard Stallman, in his many writings and talks, has taken up
+Lyotard's banner and continues to raise concerns about the breadth and
+scope of the power of those who control the knowledge. Furthermore, as
+we will see, Stallman offers hope that that power could be redistributed
+back to those to whom it rightfully belongs: the people themselves.
+
+\section{Stallman's Problem}\label{stallmans-problem}
+
+Richard Stallman, from about a decade after Lyotard published his grim
+predictions to the present, writes and gives talks about a problem he
+sees with modern copyright law. Although he mostly discusses software,
+his arguments apply to anything covered under copyright law, and as we
+will see, actually apply to any form of knowledge as defined by Lyotard.
+His writing is prolific; however, his views on copyright law and freedom
+are neatly summarized in a speech he gave in 2001 entitled ``Copyright
+and Globalization in the Age of Computer Networks''. In that talk,
+Stallman argues that his views on free software apply to any kind of
+information that can be stored on a computer; therefore, in order to
+understand his arguments there we will first need to understand his
+views on free software. Stallman lays these views out neatly in an
+earlier essay, ``Why Software Should Be Free''.
+
+In ``Why Software Should Be Free'', Stallman explains that the principle
+concern of free software is that of ownership. He asks, ``suppose on
+individual who has a copy of a program meets another who would like a
+copy. It is possible to copy the program; who should decide whether this
+is done? The individuals involved? Or another party, called the
+`owner'?'' (Stallman 121). Stallman holds that the usual criteria for
+answering this question is that which maximizes developers' profits.
+Based on that criteria, the question is answered with the idea that the
+software does have an owner separate from the user, and this owner gets
+to decide who uses the software. This is the typical answer, and the
+answer that most people today accept as true. However, Stallman proposes
+a different criteria by which to answer the question: ``the prosperity
+and freedom of the public in general'' (121). By this criteria, he
+argues, software should not have owners. This is what he means by the
+phrase ``free software'': software without an owner.
+
+Why does Stallman believe that software without an owner is better for
+society? Software ownership implies restrictions on the use of that
+software: under copyright protection, a user is not allowed to modify or
+copy the program they are using. Stallman compares this model to a road
+with a toll booth. Drivers on the toll road would have to pay to use it,
+just as users of software must pay to use it. This payment would fund
+the development of the road. However, most roads are not toll roads.
+Stallman writes, ``Comparing free roads and toll roads by their
+usefulness, we find that (all else being equal) roads without toll
+booths are cheaper to construct, cheaper to run, safer, and more
+efficient to use. {[}\ldots{}{]} The toll road is not as good as the
+free road'' (123). In the same way, software with owners is ``more
+expensive to construct, more expensive to distribute, and less
+satisfying and more efficient to use'' (123). Stallman gives three
+reasons why this is the case:
+
+\begin{quote}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Fewer people use the program.
+\item
+  None of the users can adapt of fix the program.
+\item
+  Other developers cannot learn from the program, or base new work on
+  it. (124)
+\end{enumerate}
+\end{quote}
+
+These harmful effects reduce the value of the software. However, they
+are not the only harm which occurs from software ownership. Stallman
+argues that the damage to society from software ownership far outweighs
+the damage to the value of individual programs. This societal damage
+occurs because of what he calls ``psychosocial harm'', that is, ``the
+effect that people's decisions have on their subsequent feelings,
+attitudes, and predispositions'' (124). The decisions that software
+ownership forces people to make ends up changing their worldview for the
+worse. If everyone makes those types of decisions, it changes everyone's
+worldview for the worse. Stallman gives many specific examples of
+decisions that change someone's worldview. He sketches a scenario in
+which a program user feels a social obligation to help his neighbor by
+sharing the program with the neighbor. However, copyright law makes this
+sharing illegal. Stallman argues that this tension does psychosocial
+damage to the user by forcing them to suppress their natural instinct to
+help. On the other side of the equation, the developer of the program
+suffers psychosocial harm due to the discouraging feeling of knowing
+that not everyone will be permitted to use the software she develops.
+
+Although these examples seem somewhat contrived, reflection reveals that
+these types of situation appear quite frequently in modern society, and
+that the negative affects associated with them really do occur. In a
+2015 Wired Magazine article entitled ``We Can't Let John Deere Destroy
+the Very Idea of Ownership'', reporting on a comment the tractor company
+submitted to the Copyright Office regarding the ownership status of the
+software in their tractors, writer Kyle Wiens reveals the harm done by
+proprietary software: ``{[}farmer{]} Kerry Adams {[}\ldots{}{]} hasn't
+been able to fix an expensive transplanter because he doesn't have
+access to the diagnostic software he needs'' (Wiens 1). This restriction
+commits a real social harm against farmers. Another farmer told Wiens,
+``We are used to operating independently, and that's one of the great
+things about being a farmer. And in this particular space, they are
+really taking that away from us'' (1). Software ownership has real,
+profound consequences on the social well-being of software users.
+
+Lyotard's arguments, of course, applied to a much broader field than
+just software, and in order to be useful to us we must show that
+Stallman's ideas do as well. In ``Copyright and Globalization in the Age
+of Computer Networks'', Stallman broadens his argument for free software
+into an argument against copyright for all types of information. He
+asks, ``how do the ideas about freedom for software users generalize to
+other types of things?'' (Stallman 135). There are only certain other
+types of things that free software ideas can apply to. Specifically,
+Stallman argues that these ideas can be applied to certain types of
+information: ``{[}A{]}ny kind of information that can be stored on a
+computer, conceivably, can be copied and modified. So, the ethical
+issues of free software, the issues of a user's right to copy and modify
+software, are the same as such questions for other kinds of published
+information'' (136). The phrase ``published information'' is very
+important here. Although there are many types of information that can be
+copied and modified, ethical arguments about the freedom of that
+information only apply if the information is published, that is, made
+publicly available. Stallman's argument, therefore, is one against the
+system of copyright in general, since that is the system that prevents
+copying and modification of published information.
+
+To contextualize his arguments about the harmful effects of copyright,
+Stallman presents a summary of the history of copyright. Copyright, he
+argues, used to be a socially useful construct. Before digital
+technology, information has to be either copied by hand or copied on a
+printing press. It was expensive to own and operate a printing press;
+therefore, copyright was really a regulation on businesses that could
+afford printing presses rather than on the general public. It protected
+authors and publishers from other businesses stealing their work. It was
+easy to enforce, since any business that copied a book would need to
+publicly share that copying in order to profit from it. Users of the
+information, i.e.~those that purchased the printed copies, were free to
+make copies by hand, since hand-copying was no threat to the publishers'
+businesses. Stallman argues that this early form of copyright was
+actually beneficial for the public: if information publishers know they
+can profit from making the information, more information will get made
+in general, and the public has not lost anything since they did not have
+a good way to copy the information anyway.
+
+However, computers have changed the equation. Stallman writes,
+``Computer networks and digital information technology are bringing us
+back to a world more like the ancient world, where anyone who can read
+and use the information can also copy it and can make copies about as
+easily as anyone else could make'' (138). Although copyright laws still
+exist to protect the publishers, the laws no longer protect publishers
+against other publishers. Now, they protect publishers against the users
+- against the public.
+
+When applied to a greater field than just software, the troubling
+effects of information ownership become clearer. If owners need to keep
+information from being copied or modified by users, then they need to
+keep an eye on all their users to make sure none of them break the
+copyright: ``To enforce {[}copyright{]} requires surveillance, an
+intrusion, and harsh punishments'' (138). This surveillance can take the
+form of computer programs that report back to their owners who is using
+them, or restrictions on the copying of data using various technologies
+collectively called `digital rights management', abbreviated to `DRM'.
+Furthermore, if publishers retain control over all the information they
+publish, they can repeal that information at any time. Stallman cites
+the example of a protest site criticizing a major bank: the site was
+simply disconnected by its ISP (internet service provider) without ever
+seeing the inside of a courtroom. It did not own the channels through
+which its data flowed, and so was powerless to do anything about the
+situation.
+
+Viewed in this light, the state of modern copyright law seems grim. But
+Stallman offers a solution. Just as his solution to the problem of
+software ownership is free software, that is, software that can be
+copied or modified without restriction, Stallman's solution to the
+problem with copyright law in general is to decrease the restrictions it
+imposes. However, he does not advocate abolishing it entirely. He
+writes, ``instead of increasing copyright powers, we have to pull them
+back so as to give the general public a certain domain of freedom where
+they can make use of the benefits of digital technology, make use of
+their computer networks'' (143). So how far should the restrictions
+imposed by copyright be repealed? The answer, according to Stallman,
+depends upon the type of information being protected by copyright.
+
+Stallman divides the realm of published information into three kinds of
+works: functional works, works intended to say what certain people
+think, and aesthetic works. Aesthetic works are those created for their
+artistic merit: music, novels, etc. Stallman views their copyright
+status as complicated, since on the one hand modifying them would change
+their author's artistic vision, but on the other hand much great art is
+created by adapting the works of others. Stallman's second category of
+works, those intended to convey what someone thinks, include memoirs,
+speeches, blogs, news articles, and other such publications. These types
+of works should be legal to copy but not to modify, according the
+Stallman, since modification would misrepresent the intentions of the
+authors. Functional works are those ``whose use is to get a job done''
+(143). Stallman explains that functional works should be totally free,
+able to be both copied and modified. This is because of their utility.
+Stallman says, ``People should have the freedom even to publish a
+modified version because it's very useful to modify functional works''
+(143). We can see an real-world example of this in the open source
+software movement. Developers allowing others to copy and modify the
+source code of many types of software has led to an explosion of useful
+utilities, to the point that the majority of cloud servers run on the
+open-source operating system Linux. This lines up with Stallman's
+criteria for what will be best for society - allowing people to modify
+functional works leads to the greatest prosperity and freedom for the
+public in general.
+
+Of the three types, functional works are the most relevant to this
+discussion. As we will see, functional works bear the most resemblance
+to Lyotard's conception of knowledge, and so Stallman's conclusions
+regarding them can be applied more broadly to address Lyotard's
+concerns. In order to prove that claim, however, we must first show that
+Stallman's and Lyotard's concerns actually coincide.
+
+\section{Applying Stallman to
+Lyotard}\label{applying-stallman-to-lyotard}
+
+Analysis reveals that Lyotard's conception of knowledge is of the same
+category as Stallman's conception of software, and published information
+more generally. To see this, we must return to Lyotard's definition of
+knowledge. As we discovered, Lyotard believed that (scientific)
+knowledge is a discourse, a conversation, but the advent of digital
+information technologies discretised that knowledge into a bounded
+object, a commodity that could be bought and sold. We can find many
+points of similarity between this description and the language that
+Stallman uses to talk about copyright.
+
+In Stallman's historical analysis of copyright, he makes an important
+point about the status of copying information before the digital age. He
+says, ``there wasn't, in the ancient world, the same total divide
+between copying a book and writing a book. {[}\ldots{}{]} For instance,
+you could copy a part of a book, then write some new words, copy some
+more and write some new words, and on and on. This was called `writing a
+commentary'\,'' (136). He also cites writing a compendium, in which bits
+from many different works were copied, as an example of something useful
+between copying and writing. This corresponds to Lyotard's conception of
+knowledge as a conversation: works by one author were adapted and
+responded to by another, and those secondary works themselves had
+responses and offshoots. The net result of this process was that society
+benefited, since the most useful ideas would get copied the most.
+
+What about the transition that Lyotard wrote about? He cited the advent
+of computers as changing the nature of knowledge, since knowledge now
+had to be represented as a discrete quantity that could be stored as
+data. Although Stallman does not explicitly document this change, the
+limits he places on his topic imply it. Stallman claims that his
+argument about copyright applies to ``any kind of information that can
+be stored on a computer'' (136). This type of information, by
+definition, must be of the same type as the knowledge that Lyotard
+writes about.
+
+Lyotard expresses a concern that knowledge will become a commodity -
+something that is produced in order to be sold, and something that is
+bought as a form of capital to be used in further production rather than
+for its own sake. We can find echos of this sentiment in Stallman's
+criticism of copyright law. At its core, Stallman's argument concerns
+who controls information, and what level of control they have over it.
+If we take Lyotard's analogy to its logical conclusion, we find a world
+in which the only way to obtain knowledge is to buy it, and once bought,
+the only goal is to use it to produce more knowledge to sell. This bears
+a more-than-passing resemblance to the role occupied by information
+publishers in Stallman's work - specifically, publishers of so-called
+functional works. As an example, take a company that sells soda. This
+company has a recipe they use to make their soda, and only they know
+what it is. The ingredients for soda are common and easy to obtain, so
+customers of this company are not buying the water and the sugar and the
+fruit juice that goes into the soda they buy. Rather, they are buying
+the secret configuration of all those ingredients, the copyrighted
+information that reveals how the soda is made. In that sense, the soda
+company is not a soda company at all. They sell information. When the
+soda company was founded, perhaps its owner bought that information from
+a previous company. If a former employee wanted to start their own soda
+company, they would need to either invent their own soda recipe - or buy
+the soda company's recipe. The soda company, stripped of its
+industry-specific trappings, is a company that buys information in order
+to produce new information.
+
+Stallman describes a world in which Lyotard's prediction has come to
+pass. However, unlike Lyotard, he offers a solution to the problems he
+raises. Those answers also address the broad issues that Lyotard fears:
+an increased income gap between developing countries and first-world
+countries, and a dangerous concentration of power in corporations as
+they gain control over the world's knowledge supply. Stallman's proposes
+amending copyright laws, specifically for functional works, to make them
+free - free as in freedom, not as in beer. This neatly solves Stallman's
+concerns: if a work is free to copy and modify, then all of society
+benefits, draconian surveillance is not necessary, and the interests of
+the public would once again trump the interests of private businesses.
+
+How does Stallman's solution address Lyotard's more broad concern? The
+answer can be found by considering the question that Lyotard raises in
+his IBM example - who will know? That question is the root of Lyotard's
+concerns about gaps between countries and concentrated, unregulated
+corporate power. Who will know? If the answer is, ``whoever owns the
+knowledge or has the resources to buy it'', then Lyotard's fears will
+come to pass. As Stallman has shown us, that is often the case in the
+modern world. However, if the knowledge in question is free - free to
+copy and free to modify - then the answer to ``who will know'' is
+``anyone who wants to''. In effect, free knowledge is knowledge that has
+ceased to be commoditized. Knowledge that can be copied and modified can
+be responded to, reproduced, rebutted. People can write a commentary
+about it, or put it in a compendium. Developing countries can catch up
+to first-world countries, because the knowledge economy that currently
+holds them down would be free for the taking. Corporations could not
+hoard knowledge to consolidate their power. Free knowledge is once again
+a discourse.
+
+\section{Conclusion}\label{conclusion}
+
+Although Lyotard and Stallman both paint dark pictures of the state of
+knowledge in the digital era, Stallman offers a solution that mitigates
+both his and Lyotard's concerns. By generalizing Stallman's ``free
+software'' philosophy, drawing on his proposed changes to copyright law,
+and applying them to Lyotard's description of knowledge, we can see a
+way in which knowledge continues to be a conversation, one that benefits
+all of society instead of lining the pockets of private corporations.
+
+Of course, the major question that remains is ``how can we do this in
+practice?''. Stallman offers some suggestions. The authors of
+information need to make a living, and a common objection to Stallman's
+ideas are that authors will not get paid if they are not protected by
+copyright. To prevent this, Stallman suggests selling support contracts,
+soliciting donations, and forming non-profits to obtain grant money. In
+addition he points out that free knowledge does not necessarily have no
+price - one can imagine selling packages that contain free software, or
+selling works that retain a free license. Of course, if the work is free
+to be copied and modified, nothing forces people to pay for it, and this
+is an unsolved issue that still bars adoption of Stallman's ideas.
+
+Other issues rear their heads when considering Stallman's ideas.
+Copyright was implemented for a good reason - it provides an incentive
+for people to produce information. Other incentives could be conceived
+of to produce knowledge, of course, but would those incentives be as
+strong? Or would eliminating copyright for functional works reduce the
+total volume of those types of works produced? Additionally, although
+the current copyright system invites abuse by corporations and others in
+power, a more open system could invite other forms of abuse, making it
+easier for the unscrupulous to plagiarize and steal.
+
+Despite these barriers, the potential of free knowledge offers many
+opportunities to society. Imagine a totally free education system, in
+which textbooks collaboratively written by the subject's finest teachers
+were freely available. Imagine a research system whose results were
+available to everyone, whether the researchers were academic, corporate,
+or simply avid hobbyists. Imagine farmers in developing nations
+introducing open source, specially bread strains of wheat that could
+bring food to famine stricken regions. If everyone can know, everyone
+will learn and everyone will teach, and the whole of society will be
+better off.
+
+\begin{thebibliography}{9}
+
+\bibitem{lyotard84}
+Lyotard, Jean-François.
+\emph{The Postmodern Condition: A Report on Knowledge}.
+Manchester, UK: Manchester University Press,
+1979/1984.
+
+\bibitem{stallman02}
+Stallman, Richard M.
+\emph{Free Software, Free Society: Selected Essays of Richard M. Stallman}.
+Ed. Joshua Gay.
+Boston, MA: GNU Press, 2002.
+
+\bibitem{wiens15}
+Wiens, Kyle.
+``We Can't Let John Deere Destroy the Very Idea of Ownership.''
+\emph{Wired}.
+Conde Nast, 21 April 2015.
+Web.
+
+\end{thebibliography}
+
+\end{document}
